@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A4EAB7D8-8DDF-4522-BC8B-0B2C17BC5DCC"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F8AD479-55E9-42D0-A596-C0F21BE2F67B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Revisao2Etapa/Views/CadastroRoupa/CadastroRoupa.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "btnSalvar(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4F8AD479-55E9-42D0-A596-C0F21BE2F67B - bc4dcf139c984bbd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Revisao2Etapa.CadastroRoupa.btnSalvar(Any) -&gt; ()"
+                  moduleName = "Revisao2Etapa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cotemig/Documents/Turma%203D1/Leti%CC%81cia%20Franc%CC%A7a/3D1_Leti%CC%81ciaSilvaFranc%CC%A7a_21/Revisao2Etapa/Views/CadastroRoupa/CadastroRoupa.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  uuid = "4F8AD479-55E9-42D0-A596-C0F21BE2F67B - bc4dcf139c984bbd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Revisao2Etapa.CadastroRoupa.btnSalvar(Any) -&gt; ()"
+                  moduleName = "Revisao2Etapa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cotemig/Documents/Turma%203D1/Leti%CC%81cia%20Franc%CC%A7a/3D1_Leti%CC%81ciaSilvaFranc%CC%A7a_21/Revisao2Etapa/Views/CadastroRoupa/CadastroRoupa.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "130">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2EB940B7-9EA8-4C4A-BF97-E7B4CFA8B22C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Revisao2Etapa/Views/CadastroRoupa/CadastroRoupa.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "btnReq(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

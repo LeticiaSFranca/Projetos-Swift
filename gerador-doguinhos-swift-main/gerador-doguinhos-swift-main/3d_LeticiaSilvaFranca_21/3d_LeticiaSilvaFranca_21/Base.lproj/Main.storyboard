@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_d_LeticiaSilvaFranca_21" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QNt-Ps-N1P">
+                                <rect key="frame" x="20" y="263.66666666666669" width="353" height="350.00000000000006"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="353" id="VFk-79-I4K"/>
+                                    <constraint firstAttribute="height" constant="350" id="yOP-KN-gzG"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gerador de Doguinhos S2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAp-Rw-stJ">
+                                <rect key="frame" x="20" y="177" width="353" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.23137254900000001" blue="0.52460948910000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aad-N3-tvs">
+                                <rect key="frame" x="144.66666666666666" y="109" width="103.66666666666666" height="38"/>
+                                <color key="backgroundColor" red="1" green="0.23137254900000001" blue="0.52460948910000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="- Gerar -">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="carregar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i3z-2V-g1W"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uAp-Rw-stJ" secondAttribute="trailing" constant="20" id="7Dz-Ld-QcH"/>
+                            <constraint firstItem="QNt-Ps-N1P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Bx5-Wf-vLp"/>
+                            <constraint firstItem="aad-N3-tvs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="EPS-wx-RHN"/>
+                            <constraint firstItem="uAp-Rw-stJ" firstAttribute="top" secondItem="aad-N3-tvs" secondAttribute="bottom" constant="30" id="EjX-BQ-gEN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QNt-Ps-N1P" secondAttribute="trailing" constant="20" id="WsZ-tC-6Iy"/>
+                            <constraint firstItem="aad-N3-tvs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="f4q-km-o6M"/>
+                            <constraint firstItem="QNt-Ps-N1P" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="tPf-Ol-jvC"/>
+                            <constraint firstItem="uAp-Rw-stJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="vWC-eH-4Rd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imagem" destination="QNt-Ps-N1P" id="KWN-Us-E6t"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
